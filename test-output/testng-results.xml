@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestNG Automation Suite" duration-ms="17284" started-at="2020-09-05T10:19:28 IST" finished-at="2020-09-05T10:19:45 IST">
+    <groups>
+    </groups>
+    <test name="TestNG Features" duration-ms="17284" started-at="2020-09-05T10:19:28 IST" finished-at="2020-09-05T10:19:45 IST">
+      <class name="co.testNG.parameters.ParameterTest">
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:co.testNG.parameters.ParameterTest@2a40cd94]" name="logintest" duration-ms="17137" started-at="2020-09-05T10:19:28 IST" finished-at="2020-09-05T10:19:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://login.yahoo.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test@yahoo,com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+      </class> <!-- co.testNG.parameters.ParameterTest -->
+    </test> <!-- TestNG Features -->
+  </suite> <!-- TestNG Automation Suite -->
+</testng-results>

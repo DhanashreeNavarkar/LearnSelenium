@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="TestNG Automation Suite"  >
+
+  <test name="TestNG Features" >
+  
+   <classes>
+   
+      <class name="co.testNG.basics.ExceptionTimeout"/>
+      <class name="co.testNG.basics.GoogleTest"/>
+      <class name="co.testNG.basics.GoogleTitleTest"/>
+      <class name="co.testNG.basics.InvocationCount"/>
+      <class name="co.testNG.basics.TestNGBasic"/>
+      <class name="co.testNG.basics.TestNGFeatures"/>
+      
+    </classes>
+    
+  </test>
+  
+</suite>
